@@ -1,0 +1,7 @@
+{
+  "mongoURI": "process.env.MONGODB_URI",
+  //"mongoURI": "mongodb://localhost:27017/devconnector2",
+  "jwtSecret": "secret",
+  "githubClientId": "",
+  "githubSecret": ""
+}
