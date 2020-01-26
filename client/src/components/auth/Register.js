@@ -21,7 +21,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
   const onSubmit = async e => {
     e.preventDefault();
     if (password !== password2) {
-      setAlert('Passwords do not match', 'danger');
+      setAlert('Contraseñas no coinciden', 'danger');
     } else {
       register({ name, email, password });
     }
@@ -35,13 +35,13 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
     <Fragment>
       <h1 className='large text-primary'>Sign Up</h1>
       <p className='lead'>
-        <i className='fas fa-user' /> Create Your Account
+        <i className='fas fa-user' /> Crear cuenta
       </p>
       <form className='form' onSubmit={e => onSubmit(e)}>
         <div className='form-group'>
           <input
             type='text'
-            placeholder='Name'
+            placeholder='Nombre'
             name='name'
             value={name}
             onChange={e => onChange(e)}
@@ -50,20 +50,19 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
         <div className='form-group'>
           <input
             type='email'
-            placeholder='Email Address'
+            placeholder='Email '
             name='email'
             value={email}
             onChange={e => onChange(e)}
           />
           <small className='form-text'>
-            This site uses Gravatar so if you want a profile image, use a
-            Gravatar email
+            Este sitio usa gravatar, así que si tiene cuenta podrá usar uno
           </small>
         </div>
         <div className='form-group'>
           <input
             type='password'
-            placeholder='Password'
+            placeholder='Contraseña'
             name='password'
             value={password}
             onChange={e => onChange(e)}
@@ -72,16 +71,16 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
         <div className='form-group'>
           <input
             type='password'
-            placeholder='Confirm Password'
+            placeholder='Confirmar contraseña'
             name='password2'
             value={password2}
             onChange={e => onChange(e)}
           />
         </div>
-        <input type='submit' className='btn btn-primary' value='Register' />
+        <input type='submit' className='btn btn-primary' value='Registrar' />
       </form>
       <p className='my-1'>
-        Already have an account? <Link to='/login'>Sign In</Link>
+       ¿Ya tiene una cuenta? <Link to='/login'>Acceso</Link>
       </p>
     </Fragment>
   );

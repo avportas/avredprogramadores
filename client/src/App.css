@@ -21,6 +21,15 @@ body {
   color: #333;
 }
 
+
+.img-avatares{
+max-height: 200px;
+max-width: 200px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+
 a {
   color: var(--primary-color);
   text-decoration: none;

@@ -20,13 +20,13 @@ router.get('/me', auth, async (req, res) => {
     );
 
     if (!profile) {
-      return res.status(400).json({ msg: 'There is no profile for this user' });
+      return res.status(400).json({ msg: 'No hay perfil de este usuario' });
     }
 
     res.json(profile);
   } catch (err) {
     console.error(err.message);
-    res.status(500).send('Server Error');
+    res.status(500).send('Error de server');
   }
 });
 
@@ -38,10 +38,10 @@ router.post(
   [
     auth,
     [
-      check('status', 'Status is required')
+      check('status', 'Estatus es requerido')
         .not()
         .isEmpty(),
-      check('skills', 'Skills is required')
+      check('skills', 'Conocimientos es requerido')
         .not()
         .isEmpty()
     ]
@@ -98,7 +98,7 @@ router.post(
       res.json(profile);
     } catch (err) {
       console.error(err.message);
-      res.status(500).send('Server Error');
+      res.status(500).send('Error de server');
     }
   }
 );
@@ -112,7 +112,7 @@ router.get('/', async (req, res) => {
     res.json(profiles);
   } catch (err) {
     console.error(err.message);
-    res.status(500).send('Server Error');
+    res.status(500).send('Error de server');
   }
 });
 
@@ -125,15 +125,15 @@ router.get('/user/:user_id', async (req, res) => {
       user: req.params.user_id
     }).populate('user', ['name', 'avatar']);
 
-    if (!profile) return res.status(400).json({ msg: 'Profile not found' });
+    if (!profile) return res.status(400).json({ msg: 'Perfil no encontrado' });
 
     res.json(profile);
   } catch (err) {
     console.error(err.message);
     if (err.kind == 'ObjectId') {
-      return res.status(400).json({ msg: 'Profile not found' });
+      return res.status(400).json({ msg: 'Perfil no encontrado' });
     }
-    res.status(500).send('Server Error');
+    res.status(500).send('Error de server');
   }
 });
 
@@ -149,10 +149,10 @@ router.delete('/', auth, async (req, res) => {
     // Remove user
     await User.findOneAndRemove({ _id: req.user.id });
 
-    res.json({ msg: 'User deleted' });
+    res.json({ msg: 'Usuario borrado' });
   } catch (err) {
     console.error(err.message);
-    res.status(500).send('Server Error');
+    res.status(500).send('Error de server');
   }
 });
 
@@ -164,13 +164,13 @@ router.put(
   [
     auth,
     [
-      check('title', 'Title is required')
+      check('title', 'Título es requerido')
         .not()
         .isEmpty(),
-      check('company', 'Company is required')
+      check('company', 'Empresa es requerida')
         .not()
         .isEmpty(),
-      check('from', 'From date is required')
+      check('from', 'Fecha es requerida')
         .not()
         .isEmpty()
     ]
@@ -211,7 +211,7 @@ router.put(
       res.json(profile);
     } catch (err) {
       console.error(err.message);
-      res.status(500).send('Server Error');
+      res.status(500).send('Error de server');
     }
   }
 );
@@ -246,7 +246,7 @@ router.delete('/experience/:exp_id', auth, async (req, res) => {
     // if i dont add .toString() it returns this weird mongoose coreArray and the ids are somehow objects and it still deletes anyway even if you put /experience/5
     const removeIndex = expIds.indexOf(req.params.exp_id);
     if (removeIndex === -1) {
-      return res.status(500).json({ msg: "Server error" });
+      return res.status(500).json({ msg: "Error de server" });
     } else {
       // theses console logs helped me figure it out
       console.log("expIds", expIds);
@@ -259,7 +259,7 @@ router.delete('/experience/:exp_id', auth, async (req, res) => {
     }
   } catch (error) {
     console.error(error);
-    return res.status(500).json({ msg: "Server error" });
+    return res.status(500).json({ msg: "Error de server" });
   }
 });
 
@@ -271,16 +271,16 @@ router.put(
   [
     auth,
     [
-      check('school', 'School is required')
+      check('school', 'Colegio es requerido')
         .not()
         .isEmpty(),
-      check('degree', 'Degree is required')
+      check('degree', 'Grado es requerido')
         .not()
         .isEmpty(),
-      check('fieldofstudy', 'Field of study is required')
+      check('fieldofstudy', 'Campo de estudio es requerido')
         .not()
         .isEmpty(),
-      check('from', 'From date is required')
+      check('from', 'Fecha es requerida')
         .not()
         .isEmpty()
     ]
@@ -321,7 +321,7 @@ router.put(
       res.json(profile);
     } catch (err) {
       console.error(err.message);
-      res.status(500).send('Server Error');
+      res.status(500).send('Error de server');
     }
   }
 );
@@ -357,7 +357,7 @@ router.delete("/education/:edu_id", auth, async (req, res) => {
     // if i dont add .toString() it returns this weird mongoose coreArray and the ids are somehow objects and it still deletes anyway even if you put /education/5
     const removeIndex = eduIds.indexOf(req.params.edu_id);
     if (removeIndex === -1) {
-      return res.status(500).json({ msg: "Server error" });
+      return res.status(500).json({ msg: "Error de server" });
     } else {
       // theses console logs helped me figure it out
       /*   console.log("eduIds", eduIds);
@@ -373,7 +373,7 @@ router.delete("/education/:edu_id", auth, async (req, res) => {
     }
   } catch (error) {
     console.error(error);
-    return res.status(500).json({ msg: "Server error" });
+    return res.status(500).json({ msg: "Error de server" });
   }
 });
 // @route    GET api/profile/github/:username
@@ -395,14 +395,14 @@ router.get('/github/:username', (req, res) => {
       if (error) console.error(error);
 
       if (response.statusCode !== 200) {
-        return res.status(404).json({ msg: 'No Github profile found' });
+        return res.status(404).json({ msg: 'No perfil Github encontrado' });
       }
 
       res.json(JSON.parse(body));
     });
   } catch (err) {
     console.error(err.message);
-    res.status(500).send('Server Error');
+    res.status(500).send('Error de server');
   }
 });
 

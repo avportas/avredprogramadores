@@ -18,7 +18,7 @@ app.use('/api/posts', require('./routes/api/posts'));
 
 
 var mongoose = require('mongoose'); //--> declaramos dependencia con mongoose
-mongoose.connect( process.env.MONGODB_URI || 'mongodb://localhost:27017/devconnector2', {
+mongoose.connect( process.env.MONGODB_URI, {
     useNewUrlParser: true
 });
 

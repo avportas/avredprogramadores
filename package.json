@@ -1,7 +1,7 @@
 {
-  "name": "avredprogramadores",
+  "name": "redprogramadores",
   "version": "1.0.0",
-  "description": "Red Social Programadores",
+  "description": "Red social para desarrolladores",
   "main": "server.js",
   "scripts": {
     "start": "node server",

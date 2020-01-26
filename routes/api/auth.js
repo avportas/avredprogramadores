@@ -17,7 +17,7 @@ router.get('/', auth, async (req, res) => {
     res.json(user);
   } catch (err) {
     console.error(err.message);
-    res.status(500).send('Server Error');
+    res.status(500).send('Error de server');
   }
 });
 
@@ -27,8 +27,8 @@ router.get('/', auth, async (req, res) => {
 router.post(
   '/',
   [
-    check('email', 'Please include a valid email').isEmail(),
-    check('password', 'Password is required').exists()
+    check('email', 'Añada un email válido').isEmail(),
+    check('password', 'Contraseña es requirida').exists()
   ],
   async (req, res) => {
     const errors = validationResult(req);
@@ -44,7 +44,7 @@ router.post(
       if (!user) {
         return res
           .status(400)
-          .json({ errors: [{ msg: 'Invalid Credentials' }] });
+          .json({ errors: [{ msg: 'Datos incorrectos' }] });
       }
 
       const isMatch = await bcrypt.compare(password, user.password);
@@ -52,7 +52,7 @@ router.post(
       if (!isMatch) {
         return res
           .status(400)
-          .json({ errors: [{ msg: 'Invalid Credentials' }] });
+          .json({ errors: [{ msg: 'Datos incorrectos' }] });
       }
 
       const payload = {
@@ -72,7 +72,7 @@ router.post(
       );
     } catch (err) {
       console.error(err.message);
-      res.status(500).send('Server error');
+      res.status(500).send('Error de server');
     }
   }
 );
