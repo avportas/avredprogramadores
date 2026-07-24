@@ -34,7 +34,7 @@ const Login = ({ login, isAuthenticated }) => {
         <div className='form-group'>
           <input
             type='email'
-            placeholder='Email'
+            placeholder='Email admin@admin.com'
             name='email'
             value={email}
             onChange={e => onChange(e)}
@@ -44,7 +44,7 @@ const Login = ({ login, isAuthenticated }) => {
         <div className='form-group'>
           <input
             type='password'
-            placeholder='Contraseña'
+            placeholder='Contraseña 123123'
             name='password'
             value={password}
             onChange={e => onChange(e)}

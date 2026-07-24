@@ -1,0 +1,72 @@
+{ 
+    "_id" : ObjectId("5e2bd48ae8e23035b8040aef"), 
+    "name" : "Admin", 
+    "email" : "admin@admin.com", 
+    "avatar" : "img/admin.jpg", 
+    "password" : "$2a$10$CdOe02n8SXE/DOxZ9nOX8.1YlR2OOtHkccZtyAjc/.DkF1k8TMudi", 
+    "date" : ISODate("2020-01-25T05:39:22.682+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e2da21a61a5e43e48eb34b6"), 
+    "name" : "Jose Valencia", 
+    "email" : "pepe@pepe.com", 
+    "avatar" : "img/pepe.jpg", 
+    "password" : "$2a$10$jEA1b5cxgAtrrizu8wOQBeRqF/BlWdwHcdMa./shQInsKR2z71jdO", 
+    "date" : ISODate("2020-01-26T14:28:42.169+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e2dbc5ee3f9343c50477c07"), 
+    "name" : "Emilio Fernández", 
+    "email" : "emilio@emilio.com", 
+    "avatar" : "img/emilio.jpg", 
+    "password" : "$2a$10$v0AjNW95k.SMI0elkm8Pw.ZXcwqsIzUkksqsrDYSG6ERmAM8XPfm.", 
+    "date" : ISODate("2020-01-26T16:20:46.626+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e2dc15645438a43bcfbe9dd"), 
+    "name" : "Lorenzo Jiménez", 
+    "email" : "lorenzo@lorenzo.com", 
+    "avatar" : "img/lorenzo.jpg", 
+    "password" : "$2a$10$QBMmhlkc3Onzk4MwjZWdL.5.9ZiFBIzw6E74sdmyz0x0QHADGLUIO", 
+    "date" : ISODate("2020-01-26T16:41:58.834+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e2dc68f45438a43bcfbe9e4"), 
+    "name" : "Gerardo López", 
+    "email" : "gerardo@gerardo.com", 
+    "avatar" : "img/gerardo.jpg", 
+    "password" : "$2a$10$Y.dCoOg0HTF3buMfkGroWuiQlrwjm1LBPj/cMe1puQROFrmIS4rHe", 
+    "date" : ISODate("2020-01-26T17:04:15.708+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e2dca10ddc86d1ac0828ec9"), 
+    "name" : "David Romero", 
+    "email" : "david@david.com", 
+    "avatar" : "img/david.jpg", 
+    "password" : "$2a$10$aExVLbnrSBtUC3YHki5tYOU19q1y49Hdc3ZUJWj5UVR6g.Eo0j9Ki", 
+    "date" : ISODate("2020-01-26T17:19:12.989+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e2dd134ddc86d1ac0828ecf"), 
+    "name" : "Ivan Gómez", 
+    "email" : "ivan@ivan.com", 
+    "avatar" : "img/ivan.jpg", 
+    "password" : "$2a$10$EBzCkGRH30It6DZ1VOMRe.mJ8Cs.RXDaTXXcDuVm7vLLvkhN47fmG", 
+    "date" : ISODate("2020-01-26T17:49:40.939+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e2dd2c5ddc86d1ac0828ed2"), 
+    "name" : "Carlos Molina", 
+    "email" : "carlos@carlos.com", 
+    "avatar" : "img/carlos.jpg", 
+    "password" : "$2a$10$FcA34d0eooT0x2raIrc5.OG2LE1f/lMhf5qoPlnuv.F5U4D9cDJli", 
+    "date" : ISODate("2020-01-26T17:56:21.986+0000"), 
+    "__v" : NumberInt(0)
+}

@@ -1,0 +1,202 @@
+{ 
+    "_id" : ObjectId("5e2db5aae3f9343c50477c05"), 
+    "text" : "¿Qué problema resuelve Node?\n\nLa meta número uno declarada de Node es \"proporcionar una manera fácil para construir programas de red escalables\". ¿Cuál es el problema con los programas de servidor actuales? Hagamos cuentas. En lenguajes como Java™ y PHP, cada conexión genera un nuevo hilo que potencialmente viene acompañado de 2 MB de memoria. En un sistema que tiene 8 GB de RAM, esto da un número máximo teórico de conexiones concurrentes de cerca de 4.000 usuarios. A medida que crece su base de clientes, si usted desea que su aplicación soporte más usuarios, necesitará agregar más y más servidores. Desde luego, esto suma en cuanto a los costos de servidor del negocio, a los costos de tráfico, los costos laborales, y más. Además de estos costos están los costos por los problemas técnicos potenciales — un usuario puede estar usando diferentes servidores para cada solicitud, así que cualquier recurso compartido debe almacenarse en todos los servidores. Por todas estas razones, el cuello de botella en toda la arquitectura de aplicación Web (incluyendo el rendimiento del tráfico, la velocidad de procesador y la velocidad de memoria) era el número máximo de conexiones concurrentes que podía manejar un servidor.", 
+    "name" : "Jose Valencia", 
+    "avatar" : "img/pepe.jpg", 
+    "user" : ObjectId("5e2da21a61a5e43e48eb34b6"), 
+    "likes" : [
+        {
+            "_id" : ObjectId("5e2deb0ebdca0b3b9c925d33"), 
+            "user" : ObjectId("5e2dbc5ee3f9343c50477c07")
+        }, 
+        {
+            "_id" : ObjectId("5e2ddec8bdca0b3b9c925d20"), 
+            "user" : ObjectId("5e2bd48ae8e23035b8040aef")
+        }, 
+        {
+            "_id" : ObjectId("5e2dd79eddc86d1ac0828ed5"), 
+            "user" : ObjectId("5e2dd2c5ddc86d1ac0828ed2")
+        }, 
+        {
+            "_id" : ObjectId("5e2dc776ddc86d1ac0828ec8"), 
+            "user" : ObjectId("5e2dc68f45438a43bcfbe9e4")
+        }, 
+        {
+            "_id" : ObjectId("5e2dc50145438a43bcfbe9df"), 
+            "user" : ObjectId("5e2dc15645438a43bcfbe9dd")
+        }, 
+        {
+            "_id" : ObjectId("5e2db5b2e3f9343c50477c06"), 
+            "user" : ObjectId("5e2da21a61a5e43e48eb34b6")
+        }
+    ], 
+    "comments" : [
+        {
+            "_id" : ObjectId("5e2de001bdca0b3b9c925d24"), 
+            "text" : "Después de PHP y Java quiero aprender un lenguaje nuevo que me permita hacer cosas avanzadas. Entiendo y he usado POO siguiendo el patrón de programación MVC.\n\nLo que he visto por encima, node es que es completamente distinto el planteamiento inicial y no tengo muy claro cual es el principio. Hasta ahora tengo construído el servidor web y un enrrutador de peticiones en función de la URL, pero no siento que sea elegante y sea el camino a seguir. Me interesa utilizar socket.io para crear una app en tiempo real.\n\n¿Algún libro, página o vídeo recomendado? ¿Empiezo directamente por algún framework?", 
+            "name" : "Admin", 
+            "avatar" : "img/admin.jpg", 
+            "user" : ObjectId("5e2bd48ae8e23035b8040aef"), 
+            "date" : ISODate("2020-01-26T18:52:49.080+0000")
+        }
+    ], 
+    "date" : ISODate("2020-01-26T15:52:10.018+0000"), 
+    "__v" : NumberInt(7)
+}
+{ 
+    "_id" : ObjectId("5e2dc5be45438a43bcfbe9e2"), 
+    "text" : "Tengo una aplicación express con mongodb, me solicitaron dividir la lógica de la base de datos de la lógica de las rutas, cree un \"controlador\" para que maneje esa sección sin estar en contacto con el req y res de la ruta. El problema es que no logro retornar ningún valor después de que se hace la inserción en la base de datos.", 
+    "name" : "Lorenzo Jiménez", 
+    "avatar" : "img/lorenzo.jpg", 
+    "user" : ObjectId("5e2dc15645438a43bcfbe9dd"), 
+    "likes" : [
+        {
+            "_id" : ObjectId("5e2deb0cbdca0b3b9c925d32"), 
+            "user" : ObjectId("5e2dbc5ee3f9343c50477c07")
+        }, 
+        {
+            "_id" : ObjectId("5e2ddec6bdca0b3b9c925d1f"), 
+            "user" : ObjectId("5e2bd48ae8e23035b8040aef")
+        }, 
+        {
+            "_id" : ObjectId("5e2dd79fddc86d1ac0828ed6"), 
+            "user" : ObjectId("5e2dd2c5ddc86d1ac0828ed2")
+        }, 
+        {
+            "_id" : ObjectId("5e2dd061ddc86d1ac0828ecc"), 
+            "user" : ObjectId("5e2dca10ddc86d1ac0828ec9")
+        }, 
+        {
+            "_id" : ObjectId("5e2dc774ddc86d1ac0828ec7"), 
+            "user" : ObjectId("5e2dc68f45438a43bcfbe9e4")
+        }
+    ], 
+    "comments" : [
+
+    ], 
+    "date" : ISODate("2020-01-26T17:00:46.085+0000"), 
+    "__v" : NumberInt(5)
+}
+{ 
+    "_id" : ObjectId("5e2dd0f8ddc86d1ac0828ecd"), 
+    "text" : "¿Qué se puede hacer cuando un programador deja un trabajo a medias y no tienes los accesos completos? Se trata de una pagina web de la que tengo el password de wordpress y hosting y una pagina de aterrizaje de la que solo tengo el control del hosting. Muchas gracias por responder", 
+    "name" : "David Romero", 
+    "avatar" : "img/david.jpg", 
+    "user" : ObjectId("5e2dca10ddc86d1ac0828ec9"), 
+    "likes" : [
+        {
+            "_id" : ObjectId("5e2deb0abdca0b3b9c925d30"), 
+            "user" : ObjectId("5e2dbc5ee3f9343c50477c07")
+        }, 
+        {
+            "_id" : ObjectId("5e2ddec4bdca0b3b9c925d1d"), 
+            "user" : ObjectId("5e2bd48ae8e23035b8040aef")
+        }, 
+        {
+            "_id" : ObjectId("5e2dd7a5ddc86d1ac0828ed8"), 
+            "user" : ObjectId("5e2dd2c5ddc86d1ac0828ed2")
+        }, 
+        {
+            "_id" : ObjectId("5e2dd0fcddc86d1ac0828ece"), 
+            "user" : ObjectId("5e2dca10ddc86d1ac0828ec9")
+        }
+    ], 
+    "comments" : [
+        {
+            "_id" : ObjectId("5e2ddfb4bdca0b3b9c925d23"), 
+            "text" : "Hola, yo de ti volvería a contactar con una empresa de diseño web. No se desde donde estarás escribiendo, pero yo recomiendo siempre Dbsystem. Es una empresa de que se dedica al diseño web en Madrid y Barcelona. Son muy buenos.", 
+            "name" : "Admin", 
+            "avatar" : "img/admin.jpg", 
+            "user" : ObjectId("5e2bd48ae8e23035b8040aef"), 
+            "date" : ISODate("2020-01-26T18:51:32.078+0000")
+        }
+    ], 
+    "date" : ISODate("2020-01-26T17:48:40.050+0000"), 
+    "__v" : NumberInt(5)
+}
+{ 
+    "_id" : ObjectId("5e2dd1e5ddc86d1ac0828ed1"), 
+    "text" : "React es una librería desarrollada inicialmente por Facebook. Es software libre y a partir de su liberación acapara una creciente comunidad de desarrolladores y entusiastas. Su creación se realizó en base a unas necesidades concretas, derivadas del desarrollo de la web de la popular red social. Además de facilitar el desarrollo ágil de componentes de interfaces de usuario, el requisito principal con el que nació React era ofrecer un elevado rendimiento, mayor que otras alternativas existentes en el mercado.\n\nDetectaron que el típico marco de binding y doble binding ralentizaba un poco su aplicación, debido a la cantidad de conexiones entre las vistas y los datos. Como respuesta crearon una nueva dinámica de funcionamiento, en la que optimizaron la forma como las vistas se renderizaban frente al cambio en los datos de la aplicación.\n\nA partir de ahí la probaron en su red social con resultados positivos y luego en Instagram, también propiedad de Facebook. Más adelante, después de su liberación y alentados por los positivos resultados en el rendimiento de React, muchas otras aplicaciones web de primer nivel la fueron adoptando. BBC, Airbnb, Netflix, Dropbox y un largo etc.", 
+    "name" : "Ivan Gómez", 
+    "avatar" : "img/ivan.jpg", 
+    "user" : ObjectId("5e2dd134ddc86d1ac0828ecf"), 
+    "likes" : [
+        {
+            "_id" : ObjectId("5e2deb0cbdca0b3b9c925d31"), 
+            "user" : ObjectId("5e2dbc5ee3f9343c50477c07")
+        }, 
+        {
+            "_id" : ObjectId("5e2ddec5bdca0b3b9c925d1e"), 
+            "user" : ObjectId("5e2bd48ae8e23035b8040aef")
+        }, 
+        {
+            "_id" : ObjectId("5e2dd7a1ddc86d1ac0828ed7"), 
+            "user" : ObjectId("5e2dd2c5ddc86d1ac0828ed2")
+        }
+    ], 
+    "comments" : [
+        {
+            "_id" : ObjectId("5e2ddf77bdca0b3b9c925d22"), 
+            "text" : "React permite isomorfismo, lo que significa que, con el mismo código, somos capaces de renderizar tanto en el cliente como el servidor. Por tanto, cuando llega un buscador como Google, con la misma base de código se le puede entregar el HTML con el contenido ya renderizado, lo que lleva a que una aplicación React sea capaz de posicionarse tan bien como una aplicación web tradicional que renderice del lado del servidor, como es el caso de un desarrollo tradicional o un desarrollo basado en un CMS como WordPress.\n\nTodo esto se consigue gracias a NodeJS y se puede reutilizar no solo la parte de la presentación, sino también la lógica de negocio. En resumen React permite isomorfismo, algo que le faltaba tradicionalmente a AngularJS 1.x. Ahora se ha resuelto en Angular 2.x. Aunque muchas librerías siguen sin ser capaces de soportar isomorfismo.", 
+            "name" : "Admin", 
+            "avatar" : "img/admin.jpg", 
+            "user" : ObjectId("5e2bd48ae8e23035b8040aef"), 
+            "date" : ISODate("2020-01-26T18:50:31.119+0000")
+        }, 
+        {
+            "date" : ISODate("2020-01-26T18:48:06.607+0000"), 
+            "_id" : ObjectId("5e2ddee6bdca0b3b9c925d21"), 
+            "text" : "Éste es un concepto relativamente nuevo, pero muy interesante en el desarrollo de aplicaciones que se desean tengan un buen posicionamiento en buscadores. Básicamente se trata de, con un mismo código, renderizar HTML tanto en el servidor como en el cliente, rebajando la carga de trabajo necesaria para realizar aplicaciones web amigables para buscadores.\n\nEl problema de las aplicaciones Javascript es que muchas veces reciben los datos en crudo del servidor, o de un API o servicio web, en formato JSON. Las librerías Javascript y frameworks toman esos datos para producir el HTML que debe representar el navegador. Esta arquitectura representa la solución más adecuada para el desarrollo de aplicaciones web modernas, porque nos permite desacoplar el desarrollo del lado del servidor y el desarrollo del lado del cliente, pero se convierte en un aspecto negativo de cara al posicionamiento en buscadores como Google, debido a que el cuerpo de la página no tiene contenido.", 
+            "name" : "Admin", 
+            "avatar" : "img/admin.jpg", 
+            "user" : ObjectId("5e2bd48ae8e23035b8040aef")
+        }
+    ], 
+    "date" : ISODate("2020-01-26T17:52:37.203+0000"), 
+    "__v" : NumberInt(5)
+}
+{ 
+    "_id" : ObjectId("5e2ddeb6bdca0b3b9c925d1b"), 
+    "text" : "Crear un gravatar es muy sencillo y solo te llevará unos minutos, a continuación, te muestro los pasos a seguir. Lo primero y más importante es buscar la foto o imagen que saldrá en todos los comentarios que realices en sitios webs y aplicaciones.\n\nEntra en la web de Gravatar, en la parte superior tienes el botón para Registrarte, aunque hay un enlace más directo pulsando en el botón Crea tu propio gravatar. Pulsando en dicho botón te aparecerá un formulario donde debes introducir el email en el cual quieres que se enlace el avatar, un nombre de Usuario y una contraseña. También te da la opción de regístrate usando tu cuenta Google, en esta opción la página usará los datos de tu cuenta para crear el registro.\n\nTen la precaución si como yo tienes mas de una cuenta, elegir la que contenga el email al que queremos añadir la imagen.", 
+    "name" : "Admin", 
+    "avatar" : "img/admin.jpg", 
+    "user" : ObjectId("5e2bd48ae8e23035b8040aef"), 
+    "likes" : [
+        {
+            "_id" : ObjectId("5e2deb03bdca0b3b9c925d2f"), 
+            "user" : ObjectId("5e2dbc5ee3f9343c50477c07")
+        }, 
+        {
+            "_id" : ObjectId("5e2ddec3bdca0b3b9c925d1c"), 
+            "user" : ObjectId("5e2bd48ae8e23035b8040aef")
+        }
+    ], 
+    "comments" : [
+        {
+            "_id" : ObjectId("5e2deb8abdca0b3b9c925d34"), 
+            "text" : "Hola, Admin.\n\nExcelente información. Lo probaré", 
+            "name" : "Lorenzo Jiménez", 
+            "avatar" : "img/lorenzo.jpg", 
+            "user" : ObjectId("5e2dc15645438a43bcfbe9dd"), 
+            "date" : ISODate("2020-01-26T19:42:02.473+0000")
+        }, 
+        {
+            "date" : ISODate("2020-01-26T19:39:40.351+0000"), 
+            "_id" : ObjectId("5e2deafcbdca0b3b9c925d2e"), 
+            "text" : "Lo primero que tienes que hacer es situarte en la pantalla principal de la web de Gravatar, en la primera imagen de este post, en la te pide que cliques en «Crea tu propio gravatar».\n\nYa has clicado, ¿verdad? Pues ahora te aparecerá la ventana en la que te pide que te registres en Gravatar con una cuenta de WordPress. ¡No lo hagas; ya tienes creada la cuenta!\n\nFíjate bien en el mensaje que aparece en la parte de abajo de la ventana: «¿Ya tienes una cuenta de WordPress.com? Inicia sesión ahora».", 
+            "name" : "Emilio Fernández", 
+            "avatar" : "img/emilio.jpg", 
+            "user" : ObjectId("5e2dbc5ee3f9343c50477c07")
+        }, 
+        {
+            "date" : ISODate("2020-01-26T19:38:21.953+0000"), 
+            "_id" : ObjectId("5e2deaadbdca0b3b9c925d2d"), 
+            "text" : "No obstante, como pauta general, te recomiendaría usar una foto tuya por ese plus adicional de cercanía y conexión con los demás que te da una foto personal, que es difícil de lograr de otro modo y que funcionará también muy bien para tu negocio, si lo tienes.\n\nPersonalmente, tras responder a diario a cantidad de emails y comentarios, te diré que tener un gravatar, al igual que tener asociada una foto a tu cuenta de correo electrónico, me aporta una sensación de cercanía y complicidad con la persona a la que estoy respondiendo.", 
+            "name" : "Emilio Fernández", 
+            "avatar" : "img/emilio.jpg", 
+            "user" : ObjectId("5e2dbc5ee3f9343c50477c07")
+        }
+    ], 
+    "date" : ISODate("2020-01-26T18:47:18.964+0000"), 
+    "__v" : NumberInt(5)
+}

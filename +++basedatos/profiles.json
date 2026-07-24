@@ -1,0 +1,415 @@
+{ 
+    "_id" : ObjectId("5e2da28f113c87810cb300ba"), 
+    "user" : ObjectId("5e2da21a61a5e43e48eb34b6"), 
+    "__v" : NumberInt(7), 
+    "bio" : "Empleado en ALR Tecnigestión", 
+    "company" : "ALR Tecnigestión", 
+    "location" : "Tenerife", 
+    "skills" : [
+        "angular", 
+        "react", 
+        "javascript", 
+        "net", 
+        "node", 
+        "mongodb"
+    ], 
+    "social" : {
+        "youtube" : "https://www.youtube.com/channel/UCP1Gh453a2QSZdd9AUAR6Dg", 
+        "twitter" : "https://twitter.com/google?lang=es-419", 
+        "linkedin" : "https://www.linkedin.com/company/between-tec", 
+        "instagram" : "https://www.instagram.com/programadores_memes/"
+    }, 
+    "status" : "Desarrollador Junior", 
+    "website" : "http://google.com", 
+    "date" : ISODate("2020-01-26T14:47:37.079+0000"), 
+    "education" : [
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2da68997a6983818a81b99"), 
+            "school" : "Universidad de la Laguna", 
+            "degree" : "Grado de Informática", 
+            "fieldofstudy" : "Informática", 
+            "from" : ISODate("2001-09-11T00:00:00.000+0000"), 
+            "to" : ISODate("2005-05-11T00:00:00.000+0000"), 
+            "description" : ""
+        }
+    ], 
+    "experience" : [
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2de62ebdca0b3b9c925d27"), 
+            "title" : "Programador Senior", 
+            "company" : "Lankydegor", 
+            "location" : "Tenerife", 
+            "from" : ISODate("2020-01-01T00:00:00.000+0000"), 
+            "to" : ISODate("2020-03-02T00:00:00.000+0000"), 
+            "description" : "Programador aplicaciones móviles Ionic"
+        }, 
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2de5acbdca0b3b9c925d26"), 
+            "title" : "Programador Senior", 
+            "company" : "Sofical", 
+            "location" : "Tenerife", 
+            "from" : ISODate("2016-01-01T00:00:00.000+0000"), 
+            "to" : ISODate("2018-01-01T00:00:00.000+0000"), 
+            "description" : "Programador FrontEnd"
+        }, 
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2de571bdca0b3b9c925d25"), 
+            "title" : "Programador Senior", 
+            "company" : "Informatic Central", 
+            "location" : "Tenerife", 
+            "from" : ISODate("2014-01-01T00:00:00.000+0000"), 
+            "to" : ISODate("2015-01-01T00:00:00.000+0000"), 
+            "description" : "Programador Laravel y Symfony"
+        }, 
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2dab9be2e7433b4cb22928"), 
+            "title" : "Programador Junior", 
+            "company" : "David Corp.", 
+            "location" : "Tenerife", 
+            "from" : ISODate("2017-09-01T00:00:00.000+0000"), 
+            "to" : ISODate("2019-09-01T00:00:00.000+0000"), 
+            "description" : ""
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("5e2dbd0e113c87810cb307b2"), 
+    "user" : ObjectId("5e2dbc5ee3f9343c50477c07"), 
+    "__v" : NumberInt(6), 
+    "bio" : "Programador en NG Corp durante 12 años", 
+    "company" : "NG Corp.", 
+    "location" : "Tenerife", 
+    "skills" : [
+        "php", 
+        "javascript", 
+        "node", 
+        "mern"
+    ], 
+    "social" : {
+        "youtube" : "https://www.youtube.com/channel/UCP1Gh453a2QSZdd9AUAR6Dg", 
+        "twitter" : "https://twitter.com/hashtag/programadores"
+    }, 
+    "status" : "Desarrollador Senior", 
+    "website" : "http://google.es", 
+    "date" : ISODate("2020-01-26T16:39:00.700+0000"), 
+    "education" : [
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2dc0d045438a43bcfbe9dc"), 
+            "school" : "Universidad de la Laguna", 
+            "degree" : "Grado de Informática", 
+            "fieldofstudy" : "Informática", 
+            "from" : ISODate("2001-01-01T00:00:00.000+0000"), 
+            "to" : ISODate("2001-01-01T00:00:00.000+0000"), 
+            "description" : "Licenciatura en Informática"
+        }
+    ], 
+    "experience" : [
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2dea45bdca0b3b9c925d2c"), 
+            "title" : "Manager", 
+            "company" : "JL Network ", 
+            "location" : "Tenerife", 
+            "from" : ISODate("2011-01-01T00:00:00.000+0000"), 
+            "to" : ISODate("2013-01-01T00:00:00.000+0000"), 
+            "description" : "Director de proyectos "
+        }, 
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2de9adbdca0b3b9c925d2b"), 
+            "title" : "Programador Senior", 
+            "company" : "SocTronic", 
+            "location" : "Tenerife", 
+            "from" : ISODate("2018-02-02T00:00:00.000+0000"), 
+            "to" : ISODate("2020-01-01T00:00:00.000+0000"), 
+            "description" : "Programador BackEnd .NET Core "
+        }, 
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2de748bdca0b3b9c925d2a"), 
+            "title" : "Programador Senior", 
+            "company" : "Lankidect", 
+            "location" : "Tenerife", 
+            "from" : ISODate("2014-02-02T00:00:00.000+0000"), 
+            "to" : ISODate("2016-01-01T00:00:00.000+0000"), 
+            "description" : "Programador BackEnd .NET"
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("5e2dc28a113c87810cb30922"), 
+    "user" : ObjectId("5e2dc15645438a43bcfbe9dd"), 
+    "__v" : NumberInt(2), 
+    "bio" : "Pogramador en JL Network ", 
+    "company" : "JL Network ", 
+    "location" : "Tenerife", 
+    "skills" : [
+        "javascript", 
+        "angular", 
+        "java", 
+        "net"
+    ], 
+    "social" : {
+        "youtube" : "https://www.youtube.com/channel/UCP1Gh453a2QSZdd9AUAR6Dg", 
+        "twitter" : "https://twitter.com/hashtag/programadores"
+    }, 
+    "status" : "Desarrollador Senior", 
+    "website" : "http://google.com", 
+    "date" : ISODate("2020-01-26T16:48:40.708+0000"), 
+    "education" : [
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2dc60345438a43bcfbe9e3"), 
+            "school" : "Universidad de la Laguna", 
+            "degree" : "Grado de Informática", 
+            "fieldofstudy" : "Informática", 
+            "from" : ISODate("2001-02-01T00:00:00.000+0000"), 
+            "to" : ISODate("2004-01-01T00:00:00.000+0000"), 
+            "description" : "Licenciatura en Informática"
+        }
+    ], 
+    "experience" : [
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2dc2e845438a43bcfbe9de"), 
+            "title" : "Programador Senior", 
+            "company" : "JL Network ", 
+            "location" : "Tenerife", 
+            "from" : ISODate("2012-01-01T00:00:00.000+0000"), 
+            "to" : ISODate("2019-01-01T00:00:00.000+0000"), 
+            "description" : "Programador senior de node"
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("5e2dc6cc113c87810cb30a60"), 
+    "user" : ObjectId("5e2dc68f45438a43bcfbe9e4"), 
+    "__v" : NumberInt(0), 
+    "bio" : "Estudiando desarrollo web", 
+    "company" : "Universidad de La Laguna", 
+    "location" : "Tenerife", 
+    "skills" : [
+        "angular", 
+        "php", 
+        "javascript", 
+        "mongodb"
+    ], 
+    "social" : {
+        "youtube" : "https://www.youtube.com/channel/UCP1Gh453a2QSZdd9AUAR6Dg", 
+        "twitter" : "https://twitter.com/hashtag/programadores"
+    }, 
+    "status" : "Estudiante", 
+    "website" : "http://google.es"
+}
+{ 
+    "_id" : ObjectId("5e2dca72113c87810cb30b54"), 
+    "user" : ObjectId("5e2dca10ddc86d1ac0828ec9"), 
+    "__v" : NumberInt(2), 
+    "bio" : "Profesor de Diseño en Universidad La Laguna", 
+    "company" : "Profesor en Universidad La Laguna", 
+    "location" : "Tenerife", 
+    "skills" : [
+        "javascript", 
+        "angular", 
+        "java", 
+        "diseño web"
+    ], 
+    "social" : {
+        "youtube" : "https://www.youtube.com/channel/UCP1Gh453a2QSZdd9AUAR6Dg", 
+        "twitter" : "https://twitter.com/hashtag/programadores"
+    }, 
+    "status" : "Instructor", 
+    "website" : "http://google.es", 
+    "date" : ISODate("2020-01-26T17:22:06.370+0000"), 
+    "education" : [
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2dcadeddc86d1ac0828ecb"), 
+            "school" : "Universidad de la Laguna", 
+            "degree" : "Grado de Informática", 
+            "fieldofstudy" : "Informática", 
+            "from" : ISODate("2001-01-01T00:00:00.000+0000"), 
+            "to" : ISODate("2004-01-01T00:00:00.000+0000"), 
+            "description" : "Licenciatura de Informática "
+        }
+    ], 
+    "experience" : [
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2dcabeddc86d1ac0828eca"), 
+            "title" : "Profesor", 
+            "company" : "Universidad de La Laguna", 
+            "location" : "Tenerife", 
+            "from" : ISODate("2010-01-01T00:00:00.000+0000"), 
+            "to" : ISODate("2020-01-01T00:00:00.000+0000"), 
+            "description" : "Profesor de diseño web en ULL"
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("5e2dd15c113c87810cb30ce5"), 
+    "user" : ObjectId("5e2dd134ddc86d1ac0828ecf"), 
+    "__v" : NumberInt(1), 
+    "bio" : "Programador durante 4 años en JL Network", 
+    "company" : "JL Network ", 
+    "location" : "Tenerife", 
+    "skills" : [
+        "spring", 
+        "javascript", 
+        "angular", 
+        "java"
+    ], 
+    "social" : {
+        "youtube" : "https://www.youtube.com/channel/UCP1Gh453a2QSZdd9AUAR6Dg", 
+        "twitter" : "https://twitter.com/hashtag/programadores"
+    }, 
+    "status" : "Desarrollador Senior", 
+    "website" : "http://google.es", 
+    "date" : ISODate("2020-01-26T17:51:05.349+0000"), 
+    "education" : [
+
+    ], 
+    "experience" : [
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2dd189ddc86d1ac0828ed0"), 
+            "title" : "Programador Junior", 
+            "company" : "David Corp.", 
+            "location" : "Tenerife", 
+            "from" : ISODate("2010-01-01T00:00:00.000+0000"), 
+            "to" : ISODate("2015-02-01T00:00:00.000+0000"), 
+            "description" : "Programador frontend "
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("5e2dd303113c87810cb30d5e"), 
+    "user" : ObjectId("5e2dd2c5ddc86d1ac0828ed2"), 
+    "__v" : NumberInt(2), 
+    "bio" : "Programador para JL Network", 
+    "company" : "JL Network ", 
+    "location" : "Tenerife", 
+    "skills" : [
+        "php", 
+        "laravel", 
+        "angular", 
+        "java"
+    ], 
+    "social" : {
+        "youtube" : "https://www.youtube.com/channel/UCP1Gh453a2QSZdd9AUAR6Dg", 
+        "twitter" : "https://twitter.com/hashtag/programadores"
+    }, 
+    "status" : "Manager", 
+    "website" : "http://google.es", 
+    "date" : ISODate("2020-01-26T18:04:54.744+0000"), 
+    "education" : [
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2dd77cddc86d1ac0828ed4"), 
+            "school" : "Universidad de la Laguna", 
+            "degree" : "Grado de Informática", 
+            "fieldofstudy" : "Informática", 
+            "from" : ISODate("2001-01-01T00:00:00.000+0000"), 
+            "to" : ISODate("2004-01-01T00:00:00.000+0000"), 
+            "description" : "Licenciatura en Informática"
+        }
+    ], 
+    "experience" : [
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2dd4c6ddc86d1ac0828ed3"), 
+            "title" : "Manager", 
+            "company" : "JL Network ", 
+            "location" : "Tenerife", 
+            "from" : ISODate("2010-01-01T00:00:00.000+0000"), 
+            "to" : ISODate("2014-01-01T00:00:00.000+0000"), 
+            "description" : "Manager "
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("5e2ddbc9113c87810cb30f05"), 
+    "user" : ObjectId("5e2bd48ae8e23035b8040aef"), 
+    "__v" : NumberInt(5), 
+    "bio" : "Programador en JL Network", 
+    "company" : "JL Network ", 
+    "location" : "Tenerife", 
+    "skills" : [
+        "javascript", 
+        "angular", 
+        "java", 
+        "mern", 
+        "node", 
+        "laravel", 
+        "symfony"
+    ], 
+    "social" : {
+        "youtube" : "https://www.youtube.com/channel/UCP1Gh453a2QSZdd9AUAR6Dg", 
+        "twitter" : "https://twitter.com/hashtag/programadores", 
+        "linkedin" : "https://www.linkedin.com/company/between-tec", 
+        "instagram" : "https://www.instagram.com/programadores_memes/"
+    }, 
+    "status" : "Desarrollador Senior", 
+    "website" : "http://google.es", 
+    "date" : ISODate("2020-01-26T18:39:32.052+0000"), 
+    "education" : [
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2df2cfbdca0b3b9c925d35"), 
+            "school" : "Global Azure Bootcamp", 
+            "degree" : "Intech Tenerife", 
+            "fieldofstudy" : "Informática", 
+            "from" : ISODate("2015-01-01T00:00:00.000+0000"), 
+            "to" : ISODate("2017-01-01T00:00:00.000+0000"), 
+            "description" : "El evento anual Global Azure Boot Camp, en el que se comparten experiencias sobre cómo la computación en la nube y Microsoft Azure"
+        }, 
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2de681bdca0b3b9c925d28"), 
+            "school" : "Universidad de la Laguna", 
+            "degree" : "Grado de Informática", 
+            "fieldofstudy" : "Informática", 
+            "from" : ISODate("2009-09-20T00:00:00.000+0000"), 
+            "to" : ISODate("2012-06-01T00:00:00.000+0000"), 
+            "description" : "Grado en Informática"
+        }
+    ], 
+    "experience" : [
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2de6c5bdca0b3b9c925d29"), 
+            "title" : "Programador Senior", 
+            "company" : "JL Network ", 
+            "location" : "", 
+            "from" : ISODate("2016-02-02T00:00:00.000+0000"), 
+            "to" : ISODate("2020-01-01T00:00:00.000+0000"), 
+            "description" : "Programador FrontEnd y de aplicaciones móviles. Node, Angular, Ionic, React, MongoDB"
+        }, 
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2ddd1fbdca0b3b9c925d1a"), 
+            "title" : "Programador Senior", 
+            "company" : "CISET ", 
+            "location" : "Madrid", 
+            "from" : ISODate("2013-01-01T00:00:00.000+0000"), 
+            "to" : ISODate("2015-01-01T00:00:00.000+0000"), 
+            "description" : "Programador node, angular, mongodb"
+        }, 
+        {
+            "current" : false, 
+            "_id" : ObjectId("5e2ddce4bdca0b3b9c925d19"), 
+            "title" : "Programador Junior", 
+            "company" : "CyberEOL", 
+            "location" : "Madrid", 
+            "from" : ISODate("2010-01-20T00:00:00.000+0000"), 
+            "to" : ISODate("2012-01-01T00:00:00.000+0000"), 
+            "description" : "Programador de PHP, Laravel, Symfony, maquetador"
+        }
+    ]
+}
