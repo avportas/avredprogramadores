@@ -28,7 +28,7 @@ const Login = ({ login, isAuthenticated }) => {
     <Fragment>
       <h1 className='large text-primary'>Acceso</h1>
       <p className='lead'>
-        <i className='fas fa-user' /> Acceso a la cuenta (admin@admin.com pass:123123)
+        <i className='fas fa-user' /> Acceso a la cuenta (admin@admin.com pass: 123123) (admin@admin.com pass:123123)
       </p>
       <form className='form' onSubmit={e => onSubmit(e)}>
         <div className='form-group'>
